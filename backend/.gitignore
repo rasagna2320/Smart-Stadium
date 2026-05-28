@@ -1,0 +1,92 @@
+# ==========================================
+# Python / Backend .gitignore
+# Smart Stadium / FastAPI / Kafka Project
+# ==========================================
+
+# Virtual Environment
+venv/
+.env/
+.venv/
+
+# Python Cache
+__pycache__/
+*.py[cod]
+*$py.class
+
+# Compiled Extensions
+*.so
+*.pyd
+*.dll
+
+# Logs
+*.log
+logs/
+*.out
+
+# Runtime / Temp Files
+*.pid
+*.seed
+*.tmp
+*.temp
+
+# Coverage / Testing
+.coverage
+htmlcov/
+.pytest_cache/
+.mypy_cache/
+.tox/
+nosetests.xml
+coverage.xml
+
+# Jupyter
+.ipynb_checkpoints/
+
+# FastAPI / Uvicorn
+uvicorn.log
+
+# Kafka / Streaming Generated Data
+*.jsonl
+*.csv
+*.parquet
+
+# SQLite / DB
+*.db
+*.sqlite3
+
+# OS Files
+.DS_Store
+Thumbs.db
+desktop.ini
+
+# IDE / Editor
+.vscode/
+.idea/
+*.swp
+*.swo
+
+# Build / Distribution
+build/
+dist/
+*.egg-info/
+
+# Secrets / Config
+.env
+.env.*
+secrets.json
+config.local.py
+
+# Node accidental installs inside backend
+node_modules/
+
+# Uploaded files / temp exports
+uploads/
+exports/
+downloads/
+
+# Spark temp
+metastore_db/
+spark-warehouse/
+
+# Misc
+*.bak
+*.old
